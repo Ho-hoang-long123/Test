@@ -1,0 +1,16 @@
+{
+  "schemaVersion": 1,
+  "id": "rewind",
+  "version": "1.0.0",
+  "name": "World Rewind",
+  "description": "Cu 30 giay khoi phuc block ve nhu cu.",
+  "environment": "*",
+  "entrypoints": { "main": ["com.example.rewind.RewindMod"] },
+  "mixins": ["rewind.mixins.json"],
+  "depends": {
+    "fabricloader": ">=0.16.0",
+    "minecraft": "1.21.1",
+    "java": ">=21",
+    "fabric-api": "*"
+  }
+}
